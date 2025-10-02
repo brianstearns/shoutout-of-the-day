@@ -24,7 +24,7 @@ export default function Home() {
         setShoutout({
           name: "Error",
           description: "Could not fetch today's shoutout.",
-          image: null,
+          image: undefined,
         });
       } finally {
         setLoading(false);
