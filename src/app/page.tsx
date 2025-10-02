@@ -73,7 +73,7 @@ export default function Home() {
       )}
 
       <footer className="mt-auto text-center text-xs text-gray-500 dark:text-gray-400 pt-8">
-        &copy; {new Date().getFullYear()} Your App
+        &copy; {new Date().getFullYear()} Daily shoutout app. All rights reserved. All images from Wikipedia.
       </footer>
     </div>
   );
